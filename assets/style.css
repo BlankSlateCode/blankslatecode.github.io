@@ -1,0 +1,51 @@
+body {
+  color: #444;
+  font-size: 18px;
+  margin: 40px auto;
+  max-width: 720px;
+  line-height: 1.4;
+  font-family: serif;
+  padding: 10px 16px;
+}
+h1,h2,h3 {
+  line-height: 1.2
+}
+a {
+  text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-weight: normal;
+}
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+th, td {
+  border-top: 1px solid #444;
+  padding: 10px 16px;
+}
+input, textarea, select, button {
+  font-family: serif;
+  font-size: 18px;
+  color: #666;
+  padding: 10px 2%;
+  line-height: 1.4;
+}
+label, button {
+  margin-top: 10px;
+}
+label {
+  display: block;
+}
+fieldset {
+  padding: 10px 16px;
+}
+input, textarea {
+  width: 96%;
+}
+select {
+  width: 100%;
+}
+label input {
+  width: auto;
+}
