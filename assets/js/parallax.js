@@ -62,20 +62,17 @@ function goParallax(top) {
 function init() {
     "use strict";
 
+    if (!window.addEventListener) {
+        // you are not worthy
+        return;
+    }
+
     goParallax(0);
 
-    if (window.addEventListener) {
-        window.addEventListener('scroll', function(){
-            goParallax(this.pageYOffset);
-        });
-        return;
-    }
-    if (window.attachEvent) {
-        window.attachEvent('scroll', function(){
-            goParallax(this.pageYOffset);
-        });
-        return;
-    }
+    window.addEventListener('scroll', function(){
+        goParallax(this.pageYOffset);
+    });
+    return;
 }
 
 document.body.onload = function() {
