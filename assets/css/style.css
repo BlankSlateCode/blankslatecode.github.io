@@ -1,3 +1,16 @@
+@font-face {
+    font-family: 'Amatic';
+    font-style: normal;
+    font-weight: 400;
+    src: local('AmaticSC-Regular'), url('../fonts/AmaticSC-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Amatic';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Amatic-Bold'), url('../fonts/Amatic-Bold.ttf') format('truetype');
+}
+
 body {
   color: #444;
   font-size: 42px;
@@ -56,10 +69,15 @@ label input {
   text-align: center;
 }
 h1.title {
+  font-family: Amatic, georgia, serif;
   font-size: 84px;
 }
 h3.title {
   font-size: 36px;
+}
+h5.title {
+  color: rgb(48, 94, 92);
+  font-size: 30px;
 }
 
 /* PARALLAX */
@@ -102,4 +120,11 @@ h3.title {
     text-align: center;
     padding: 40px 0;
     margin: 0 10%;
+}
+
+.vertical {
+    border-left: 1px solid #444;
+    height: 200px;
+    margin-left: 50%;
+    width: 50%;
 }
