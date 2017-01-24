@@ -66,7 +66,10 @@ label input {
 
 .title {
   color: rgb(235, 243, 246);
+  margin-left: 2%;
+  margin-right: 2%;
   text-align: center;
+  width: 96%;
 }
 h1.title {
   font-family: Amatic, georgia, serif;
@@ -116,10 +119,13 @@ h5.title {
     background-color: rgb(235, 243, 246);
     position: relative;
     z-index: 98;
-    width: 80%;
     text-align: center;
     padding: 40px 0;
-    margin: 0 10%;
+}
+.main-content h5 {
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 .vertical {
