@@ -95,7 +95,7 @@ h3.title {
   }
 
 .main-content {
-    /* background-color: #fff; */
+    background-color: rgb(235, 243, 246);
     position: relative;
     z-index: 98;
     width: 80%;
