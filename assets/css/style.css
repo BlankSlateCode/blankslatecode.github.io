@@ -49,3 +49,24 @@ select {
 label input {
   width: auto;
 }
+
+/* background */
+.bg-img {
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+img {
+    border: none;
+}
+.title {
+  color: #fff;
+  text-align: center;
+}
+h1.title {
+  font-size: 84px;
+}
+h3.title {
+  font-size: 42px;
+}
