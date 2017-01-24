@@ -51,16 +51,6 @@ label input {
   width: auto;
 }
 
-/* background */
-.bg-img {
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;
-}
-img {
-    border: none;
-}
 .title {
   color: rgb(235, 243, 246);
   text-align: center;
@@ -108,7 +98,8 @@ h3.title {
     /* background-color: #fff; */
     position: relative;
     z-index: 98;
-    width: 100%;
+    width: 80%;
     text-align: center;
     padding: 40px 0;
+    margin: 0 10%;
 }
