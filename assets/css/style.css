@@ -1,11 +1,12 @@
 body {
   color: #444;
-  font-size: 18px;
-  margin: 40px auto;
-  max-width: 720px;
+  font-size: 42px;
+  margin: 0; /* 40px auto; */
+  /* max-width: 720px; */
   line-height: 1.4;
-  font-family: serif;
-  padding: 10px 16px;
+  font-family: georgia, serif;
+  padding: 0; /* 10px 16px; */
+  background-color: rgb(235, 243, 246)
 }
 h1,h2,h3 {
   line-height: 1.2
@@ -61,12 +62,53 @@ img {
     border: none;
 }
 .title {
-  color: #fff;
+  color: rgb(235, 243, 246);
   text-align: center;
 }
 h1.title {
   font-size: 84px;
 }
 h3.title {
-  font-size: 42px;
+  font-size: 36px;
+}
+
+/* PARALLAX */
+
+.keyart, .keyart_layer {
+  height: 800px;
+}
+
+#parallax {
+  display: block;
+}
+.keyart {
+  position: relative;
+  z-index: 10;
+}
+
+.keyart_layer {
+  background-position: bottom center;
+  background-size: auto 1000px;
+  background-repeat: no-repeat;
+  width: 100%;
+  position: absolute;
+}
+.keyart_layer.parallax {
+  position: fixed;
+}
+  #keyart-0 {
+    background-image: url('../images/mvbg.jpg');
+    // background-color: #ffaf1b;
+  }
+  #keyart-1 {
+    /* background-image: url('../images/parallax/parallax1.png'); */
+  }
+
+.main-content {
+    /* background-color: #fff; */
+    position: relative;
+    z-index: 98;
+    width: 100%;
+    text-align: center;
+    padding: 40px 0;
 }
