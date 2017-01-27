@@ -47,7 +47,8 @@ var doit = function() {
 };
 
 window.addEventListener('scroll', function(){
-    if (this.pageYOffset > 950) {
+    if (this.pageYOffset > 500) {
+      doit();
       doit();
     }
 });
