@@ -19,7 +19,7 @@ var canvas = d3.select("body").select("div").append("canvas")
 
 var color = d3.scale.linear()
     .domain([0, 20, 30, 50])
-    .range(["blue", "grey", "black", "blue"])
+    .range(["#09757F", "#09757F", "#09757F", "#09757F"])
     .interpolate(d3.interpolateHcl);
 
 var context = canvas.node().getContext("2d");
