@@ -8,12 +8,10 @@
     <link rel="stylesheet" href="assets/css/style.css">
   </head>
   <body>
-    <!--
-    <img class="bg-img" src="assets/images/mvbg.jpg" alt="" style="z-index: -1;">
-    -->
+    <div id="lorenz"></div>
     <section class="keyart" id="parallax">
-      <div class="keyart_layer parallax" id="keyart-0" data-speed="100"></div>
-      <div class="keyart_layer parallax" id="keyart-1" data-speed="49">
+      <div class="keyart_layer parallax" id="keyart-0" data-speed="120"></div>
+      <div class="keyart_layer parallax" id="keyart-1" data-speed="50">
         <h1 class="title">Blank Slate</h1>
         <h3 class="title">A coding and software development agency in Belgium</h3>
         <h5 class="title">Specialising in UX and Data Visualization</h5>
@@ -21,13 +19,15 @@
       </div>
     </section>
     <section class="main-content">
+      <!-- <div class="vertical"></div> -->
       <h5>We love building databases</h5>
       <div class="vertical"></div>
       <h5>Building web applications on top of those</h5>
       <div class="vertical"></div>
       <h5>And building beautiful graphs on top of those</h5>
     </section>
-    <script type="text/javascript" src="assets/js/polyfill.js"></script>
     <script type="text/javascript" src="assets/js/parallax.js"></script>
+    <script type="text/javascript" src="assets/js/d3.min.js"></script>
+    <script type="text/javascript" src="assets/js/lorenz.js"></script>
   </body>
 </html>

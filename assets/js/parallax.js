@@ -15,7 +15,9 @@ function goParallax(top) {
     };
 
     /**
-     * @deprecated use translateY instead
+     * Potentially has performance improvements over translateY
+     * @link http://desandro.github.io/3dtransforms/docs/3d-transform-functions.html
+     *
      * @param  {Number} x pixels
      * @param  {Number} y pixels
      * @param  {Number} z pixels
@@ -48,7 +50,7 @@ function goParallax(top) {
     var shift = function(layer) {
         var speed = layer.getAttribute('data-speed');
         var yPos = -(top * speed / 100);
-        var style = translateY(yPos);
+        var style = translate3d(0,yPos,0);
         layer.setAttribute('style', style+ms(style));
     };
 
