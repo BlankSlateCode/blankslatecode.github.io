@@ -19,7 +19,9 @@ var canvas = d3.select("body").select("div").append("canvas")
 
 var color = d3.scale.linear()
     .domain([0, 20, 30, 50])
-    .range(["#09757F", "#09757F", "#09757F", "#09757F"])
+    // .range(["yellow", "orange", "brown", "purple"])
+    // .range(["orange", "grey", "black", "green"])
+    .range(["#ffffcc", "#a1dab4", "#41b6c4", "#225ea8"])
     .interpolate(d3.interpolateHcl);
 
 var context = canvas.node().getContext("2d");
@@ -48,7 +50,7 @@ var doit = function() {
 
 window.addEventListener('scroll', function(){
     if (this.pageYOffset > 500) {
-      doit();
+      // doit();
       doit();
     }
 });
