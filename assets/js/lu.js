@@ -1,5 +1,7 @@
 /**
+ * Lorenz attractor modified for the Lu attractor equations
  * http://bl.ocks.org/mbostock/5385402
+ * https://www.researchgate.net/profile/Jinhu_Lu/publication/222652143_Generating_hyperchaotic_L_attractor_via_state_feedback_control/links/53ff4d400cf2da31542dd38f/Generating-hyperchaotic-L-attractor-via-state-feedback-control.pdf
  */
 
 var δτ = 0.003,
